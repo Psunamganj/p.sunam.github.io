@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da|Galada|Hind+Siliguri&display=swap');
+
+@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+
+
+ /* bangla font
+	font-family: 'Baloo Da', cursive;
+
+    font-family: 'Hind Siliguri', sans-serif;
+
+    font-family: 'Galada', cursive; 
+	
+	font-family: 'CharuChandan3D', sans-serif;
+	font-family: 'Kalpurush', sans-serif;
+
+	*/
+
+
+
+*{margin:0;padding:0}
+body{width:960px;margin:0 auto;background: url(image/bg2.jpg) repeat;}
+
+#main{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+	display: block;
+	overflow:hidden;
+}
+#name{
+	background:#CDD7D5;
+	overflow:hidden;
+}
+#prio img{
+	float:left;
+	height:104px;
+	margin-left:230px;
+}
+
+#main_name img{
+	width: 300px;
+	height: 100px;
+}
+
+#slider img{
+	width: 505px;
+	height: 80px;
+	margin-top:5px;
+}
+
+#slid_img{
+	width: 505px;
+
+	margin-left: 25px;
+
+	border: none;
+
+	height: 100px;
+}
+
+#name_menu_wrap{
+	position:fixed;
+	border-top:10px solid #514D4D;
+	z-index:9999999999999999;
+}
+
+#menu{
+	background: url(image/nav.png) center -5px no-repeat;
+	height: 35px;
+	width:960px;
+	z-index:99999;
+	position:relative;
+	padding-bottom:4px;
+}
+#menu ul{
+	list-style-type: none;
+	background: #435469;
+	z-index:30;
+	color: #fff;
+}
+#menu ul li{
+	float: left;
+	border-right: 2px solid black;
+	border-left: 1px solid #8A8A8A;
+	padding:5px;
+	transition:0.5s;
+	color: #fff;
+}
+#menu ul li:firft-child{
+	border-left:none;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	display:block;
+	text-transform: uppercase;
+	position: relative;
+	font-family: 'Kalpurush', sans-serif;
+	
+}
+#menu ul li:hover{
+	background:#fff;
+	transition:all 0.6s ease;
+	border-bottom:2px solid red;
+}
+#menu ul li:hover a{
+	color:#000;
+}
+
+
+#menu ul li a img{
+	height:20px;
+	
+}
+#menu ul li{
+	position:relative;
+}
+#menu ul li ul{
+	left:-999999px;
+	position:absolute;
+}
+#menu ul li:hover ul{
+	left:0px;
+	transition:all 0.1s ease;
+}
+#menu ul li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-bottom: 2px solid black;
+	border-top:1px solid #999999;
+	width:120px;
+}
+#menu ul li a ul li a{
+	font-size:18px;
+	color:#fff;
+}
+#menu ul li ul li a:hover{
+	color:#000;
+}
+#menu ul li ul li{
+	position:relative;
+}
+#menu ul li ul li ul{
+	top:-999999px;
+	position:absolute;
+}
+#menu ul li ul li:hover ul{
+	top:0px;
+	left:130px;
+}
+
+.undrmnu_srch{padding-top:4px; position:relative; margin-bottom:px;margin-top:px;margin-right:10px; float:right;}
+.undrmnu_srch input{ width:230px; height:25px; border:1px solid #ababab; border-radius:5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:px; background:#fff; font:normal 14px Arial, Helvetica, sans-serif; color:#1F5A9D; margin-top:px }
+.undrmnu_srch input[type="submit"] {width: 23px;height: 25px;
+cursor: pointer;text-indent: -999999px;border: none;
+background: url(image/srchIcon.png) no-repeat;background-size: auto;position: absolute;right: 13px;top: 7px;background-size: 20px;left: 205px; }
+
+#content{
+	background:#ABBAC5;
+	border-top:5px solid blue;
+	margin-top:150px;
+	overflow:hidden;
+}
+.left_side{
+	background:#e8e5e5;
+	width:160px;
+	float:left;
+	padding:15px;
+	margin-left:0px;
+}
+.middle_content{
+    background:#ebf2f1;
+    width:550px;
+    float:left;
+	overflow:hidden;
+	margin-left:17px;
+}
+
+.right_side{
+	background:#e8e5e5;
+	width:160px;
+	float:right;
+	padding:15px;
+	margin-left:0px;
+}
+.single_left h3{
+	background: #514D4D;
+	margin-left: -15px;
+	border-radius: 7px 7px 7px 7px;
+	margin-right: -15px;
+	text-align:center;
+	color:#fff;
+}
+.single_left ul{
+	
+}
+.single_left ul li{
+	list-style-type:none;
+	padding:2px;
+	border-bottom:0.5px dotted black;
+}
+.single_left ul li:last-child{
+	border-bottom:none;
+}
+.single_left ul li a{
+	text-decoration:none;
+	color:#1B2631;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+.single_left ul li a:hover{
+	color:black;
+}
+.single_right h3{
+	background: #514D4D;
+	margin-left: -15px;
+	border-radius: 7px 7px 7px 7px;
+	margin-right: -15px;
+	text-align:center;
+	color:#fff;
+}
+.single_right ul{
+	
+}
+.single_right ul li{
+	list-style-type:none;
+	border-bottom:0.5px dotted black;
+}
+.single_right ul li:last-child{
+	border-bottom:none;
+}
+.single_right ul li a{
+	text-decoration:none;
+	color:#1B2631;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+.single_right ul li a:hover{
+	color:black;
+}
+#slidimg img{
+	width:400px;
+	border:none;
+	height:20px;
+	overflow:hidden;
+}
+
+.single_mid{
+	margin-bottom:10px;
+	border-bottom:4px solid #ABBAC5;
+}
+.single_mid img{
+	width: 75px;
+	float: left;
+	height: 40px;
+	margin-right: 20px;
+	border: 1px solid blue;
+	margin-left: 5px;
+}
+.single_mid h3{
+	background: #D3D3D7;
+	margin-bottom: 5px;
+	color: #2d1ee8;
+	padding:3px;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+.single_mid h4:hover{
+	color:green;
+}
+.single_mid h4{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #000;
+	font-size:15px;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+.single_mid p{
+	color: #313233;
+	font-size: 13px;
+	margin-left: 10px;
+	font-family: 'Kalpurush', sans-serif;
+}
+.single_mid p:hover{
+	color:black;
+}
+.sokol a{
+	background: green;
+	color: #fff;
+	text-decoration: none;
+	float: right;
+}
+.sokol a:hover{
+	color:blue;
+	background:#fff;
+}
+.sokol{
+	margin-bottom: 15px;
+	padding: 10px;
+}
+#footer{
+	background-color:#514D4D;
+	width:960px;
+	height:200px;
+}
+.left_foot{
+	width:300px;
+	float:left;
+	margin-left:10px;
+	margin-top:15px;
+}
+.left_foot h3{
+	color:#fff;
+	border-bottom:1px solid #fff;
+}
+.nam{
+	float:left;
+	width:300px;
+	margin-left:10px;
+	margin-top:15px;
+}
+.nam p{
+	color:#ddd;
+	border-bottom:1px solid #fff;
+}
+.nam h3{
+	color:#44d1ee;
+	font-family: 'CharuChandan3D', sans-serif; 
+}
+.right_foot{
+	width:300px;
+	margin-left:10px;
+	float:left;
+	margin-top:15px;
+}
+.right_foot h3{
+	color:#fff;
+	border-bottom:1px solid #fff;
+}
+.right_foot img{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
